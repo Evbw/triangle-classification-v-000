@@ -3,7 +3,7 @@ class Triangle
   def kind
     
     begin
-	raise TriangleError
+	    raise TriangleError
       rescue TriangleError => error
 	puts error.message
       end
