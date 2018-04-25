@@ -22,8 +22,6 @@ class Triangle
     else
       "Scalene"
     end
-    
-    
   end
   
   
