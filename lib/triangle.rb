@@ -2,6 +2,9 @@ class Triangle
   
   attr_reader :a, :b :c
   
+  def initialize
+    @a = a
+  
   def kind(a, b, c)
     if a <= 0 || b <= 0 || c <= 0
       begin
