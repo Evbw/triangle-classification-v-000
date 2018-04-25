@@ -1,7 +1,7 @@
 class Triangle
   
   def kind(side a, side b, side c)
-    if 
+    if side a
       begin
 	      raise TriangleError
       rescue TriangleError => error
