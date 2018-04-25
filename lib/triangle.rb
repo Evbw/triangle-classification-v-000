@@ -29,4 +29,3 @@ class TriangleError < StandardError
     "Your triangle is invalid"
   end
 end
-
