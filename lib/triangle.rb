@@ -25,9 +25,9 @@ class TriangleError < StandardError
   end
 end
 
-a <= 0 || b <= 0 || c <= 0 || (a + b) < c || (a + c) < b || (c + b) < a
-      begin
-	      raise TriangleError
-      rescue TriangleError => error
-	      puts error.message
-      end
+#a <= 0 || b <= 0 || c <= 0 || (a + b) < c || (a + c) < b || (c + b) < a
+#      begin
+#	      raise TriangleError
+#      rescue TriangleError => error
+#	      puts error.message
+#      end
