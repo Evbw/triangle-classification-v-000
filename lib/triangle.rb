@@ -15,7 +15,12 @@ class Triangle
       rescue TriangleError => error
 	      puts error.message
       end
+    elsif a == b == c
+      "Equilateral"
+    elsif
     end
+    
+    
   end
   
   
