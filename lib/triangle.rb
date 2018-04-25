@@ -17,7 +17,7 @@ class Triangle
       end
     elsif a == b == c
       "Equilateral"
-    elsif
+    elsif a == b || a == c || b == c
     end
     
     
