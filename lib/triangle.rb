@@ -23,9 +23,6 @@ class Triangle
       "Scalene"
     end
   end
-  
-  
- 
 end
 
 class TriangleError < StandardError
