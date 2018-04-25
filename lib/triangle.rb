@@ -19,6 +19,8 @@ class Triangle
       "Equilateral"
     elsif a == b || a == c || b == c
       "Isosceles"
+    else
+      "Scalene"
     end
     
     
