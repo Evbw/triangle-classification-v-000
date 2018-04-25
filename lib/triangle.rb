@@ -19,7 +19,7 @@ class Triangle
   
   
   class TriangleError < StandardError
-    # triangle error code
+    "Your triangle is invalid"
   end
     
 end
