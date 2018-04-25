@@ -25,11 +25,3 @@ class TriangleError < StandardError
     "Your triangle is invalid"
   end
 end
-
-if person.class != Person 
-  begin
-    raise PartnerError
-  rescue PartnerError => error
-    puts error.message
-  end
-end
